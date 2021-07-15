@@ -172,3 +172,66 @@ span a{
     animation: arrow 2s ease-in 0.5s infinite alternate;
     animation-play-state: running;
 }
+/* footer  */
+.last-container{
+    width: 486px;
+    height: 213px;
+    display: contents;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    justify-content: center; 
+    align-items: center;
+}
+.author{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.copyrightimg img{
+    width: 483px;
+    height: 110px;
+
+}
+.iconp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#fab{
+    color: lightslategray;
+}
+/* animation transition and hover  */
+.lastinfo a:hover{
+background-color: lime;
+font-size: 20px;
+}
+/* Media queries */
+@media only screen and (max-width:411px) {
+    .star-player{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+    }
+.footer{
+margin-top: 4200px;
+display: flex;
+flex-direction: column;
+}
+.footerimg img {
+    width: 375px;
+    height: 311px;
+    margin-top: 60px;
+}
+.copyrightimg img {
+    width: 290px;
+    height: 111px;
+}
+.menubar{
+    margin-left: 0px;
+    flex-direction: column;
+}
+.headings{
+    margin-left: 0px;
+}
+}
