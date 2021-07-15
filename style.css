@@ -1,0 +1,24 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: ;#FFFFFF,
+}
+/* header style  */
+@keyframes first-arrow {
+    0%{
+        background-color: greenyellow;
+    }
+    25%{
+        background-color: grey;
+    }
+    50%{
+        background-color: gold;
+    }
+    75%{
+        background-color: indigo;
+    }
+    100%{
+        background-color: deeppink;
+    }
+}
