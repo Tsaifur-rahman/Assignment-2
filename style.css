@@ -22,3 +22,52 @@ body{
         background-color: deeppink;
     }
 }
+header{
+    background-color:teal;
+    height: 633px;
+   
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    margin-right: 124px;
+    margin-left: 156px;
+    width: 1160px;
+}
+nav span a:hover{
+    background-color: dimgray;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.link:hover{
+    background-color: rgb(91, 139, 241);
+    font-size: 20px;
+}
+span a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.fas{
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px;
+    animation: first-arrow  2s ease-in-out 0.1s infinite alternate-reverse;
+    animation-play-state: running;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+.bannerimg img{
+    width: 556px;
+    height: 438px;
+    margin: 90px 141px 86px 350px;
+}
+.info{
+    width: 485px;
+    height: 230px;
+   
+}
